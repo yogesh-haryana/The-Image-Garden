@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import Header from './Components/Header';
-import ApiCall from './Components/ApiCall';
-import NavItem from './Components/NavItem';
-import Search from './Components/Search';
+import React from "react";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Header from "./Components/Header";
+import ApiCall from "./Components/ApiCall";
+import NavItem from "./Components/NavItem";
+import Search from "./Components/Search";
 
 function App() {
   return (

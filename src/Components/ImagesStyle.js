@@ -1,18 +1,18 @@
-import { makeStyles } from '@material-ui/core';
+import { makeStyles } from "@material-ui/core";
 
 const useStyle = makeStyles({
   imgHolder: {
-    height: '165px',
-    width: '220px',
-    backgroundSize: 'cover',
-    overflow: 'hidden',
+    height: "165px",
+    width: "220px",
+    backgroundSize: "cover",
+    overflow: "hidden",
   },
   picture: {
-    height: '165px',
-    width: '220px',
-    transition: '.7s',
-    '&:hover': {
-      transform: 'scale(1.2)',
+    height: "165px",
+    width: "220px",
+    transition: ".7s",
+    "&:hover": {
+      transform: "scale(1.2)",
     },
   },
 });

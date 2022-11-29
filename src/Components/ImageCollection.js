@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Images from './Images';
-import useStyle from './ImageColStyles';
+import React from "react";
+import PropTypes from "prop-types";
+import Images from "./Images";
+import useStyle from "./ImageColStyles";
 
 function ImageCollection(props) {
   const classes = useStyle();

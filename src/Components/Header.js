@@ -1,6 +1,6 @@
-import React from 'react';
-import Items from './Items';
-import SearchBar from './SearchBar';
+import React from "react";
+import Items from "./Items";
+import SearchBar from "./SearchBar";
 
 function Header() {
   return (

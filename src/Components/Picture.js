@@ -1,7 +1,7 @@
-import React, { useContext, useEffect } from 'react';
-import PropTypes from 'prop-types';
-import { ImageContext } from './ApiCall';
-import ImageCollection from './ImageCollection';
+import React, { useContext, useEffect } from "react";
+import PropTypes from "prop-types";
+import { ImageContext } from "./ApiCall";
+import ImageCollection from "./ImageCollection";
 
 function Picture({ query }) {
   const { data, getRemoteData } = useContext(ImageContext);

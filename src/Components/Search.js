@@ -1,9 +1,10 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
-import Picture from './Picture';
+import React from "react";
+import { useParams } from "react-router-dom";
+import Picture from "./Picture";
 
 function Search() {
   const { Input } = useParams();
+  console.log(Input);
   return (
     <div>
       <h2>

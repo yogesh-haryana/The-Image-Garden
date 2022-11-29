@@ -1,6 +1,6 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import useStyle from './ItemStyles';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import useStyle from "./ItemStyles";
 
 function Items() {
   const classes = useStyle();

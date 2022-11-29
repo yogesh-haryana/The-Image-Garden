@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import useStyle from './ImagesStyle';
+import React from "react";
+import PropTypes from "prop-types";
+import useStyle from "./ImagesStyle";
 
 function Images({ url, title }) {
   const classes = useStyle();
