@@ -5,7 +5,7 @@
   overflow: hidden;
 }
 
-.picture: {
+.picture {
   height: 165px;
   width: 220px;
   transition: .7s;
