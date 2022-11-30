@@ -5,12 +5,14 @@ import Header from "./Components/Header";
 import ApiCall from "./Components/ApiCall";
 import NavItem from "./Components/NavItem";
 import Search from "./Components/Search";
+import ErrorPage from "./Components/ErrorPage";
 
 function App() {
   return (
     <ApiCall>
       <Header />
       <Routes>
+        <Route path="*" element={<ErrorPage />} />
         <Route path="/mountain" element={<NavItem query="mountain" />} />
         <Route path="/" element={<NavItem to="/mountain" query="mountain" />} />
         <Route path="/beaches" element={<NavItem query="beaches" />} />

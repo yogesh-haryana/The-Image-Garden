@@ -1,10 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Images from "./Images";
-import useStyle from "./ImageColStyles";
+import "./ImageColStyles.css";
 
 function ImageCollection(props) {
-  const classes = useStyle();
   const { imageData } = props;
   const images = imageData.map((image) => {
     const { farm } = image;
@@ -17,7 +16,7 @@ function ImageCollection(props) {
   });
 
   return (
-    <div className={classes.imgCollection}>
+    <div className="imgCollection">
       {images}
     </div>
   );

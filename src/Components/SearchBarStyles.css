@@ -1,0 +1,20 @@
+.searchbar {
+  width: 300px;
+  height: 30px;
+  border-radius: 6px 0 0 6px;
+  border: .5px solid black;
+  border-right: none;
+}
+.searchButton {
+  height: 34px;
+  width: 35px;
+  background:#2196F3 ;
+  color: #fff;
+  border-radius: 0 6px 6px 0;
+  border: .5px solid black;
+  border-left: none;
+}
+.searchForm {
+  display: table;
+  margin: 0 auto;
+}

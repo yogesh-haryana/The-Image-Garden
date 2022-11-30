@@ -1,12 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import useStyle from "./ItemStyles";
+import "./ItemStyles.css";
 
 function Items() {
-  const classes = useStyle();
   return (
-    <div className={classes.itemsContainer}>
-      <ul className={classes.ul} type="none">
+    <div className="itemsContainer">
+      <ul className="ul" type="none">
         <li>
           <NavLink to="/mountain">Mountain</NavLink>
         </li>

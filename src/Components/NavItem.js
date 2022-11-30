@@ -1,13 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Picture from "./Picture";
-import usestyles from "./NavItemStyles";
+import "./NavItemStyles.css";
 
 function NavItem({ query }) {
-  const classes = usestyles();
   return (
     <div>
-      <h2 className={classes.heading}>
+      <h2 className="heading">
         {query}
         {" "}
         images

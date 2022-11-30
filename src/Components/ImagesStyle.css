@@ -1,0 +1,16 @@
+.imgHolder {
+  height: 165px;
+  width: 220px;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.picture: {
+  height: 165px;
+  width: 220px;
+  transition: .7s;
+}
+
+.picture:hover {
+  transform: scale(1.2);
+}

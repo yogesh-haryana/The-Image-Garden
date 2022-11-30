@@ -1,0 +1,28 @@
+.itemsContainer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.ul {
+  display: flex;
+  justify-content: center;
+}
+
+.ul li {
+  width: 100px;
+  margin: 5px;
+}
+
+.ul li a {
+  display: block;
+  text-decoration: none;
+  width: 90%;
+  height: 18px;
+  line-height: 18px;
+  background-color: blue;
+  border: 1px solid blue;
+  color: #fff;
+  font-size: 14px;
+  padding: 2px;
+  cursor: pointer;
+}

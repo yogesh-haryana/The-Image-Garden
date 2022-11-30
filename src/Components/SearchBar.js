@@ -3,12 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
-import useStyle from "./SearchBarStyles";
+import "./SearchBarStyles.css";
 
 library.add(faMagnifyingGlass);
 
 function SearchBar() {
-  const classes = useStyle();
   const [keyword, setKeyword] = useState("");
 
   const updateSearch = (e) => {
@@ -27,16 +26,16 @@ function SearchBar() {
     <div>
       <form
         onSubmit={(e) => searchHandler(e, navigate)}
-        className={classes.searchForm}
+        className="searchForm"
       >
         <input
           onChange={updateSearch}
           value={keyword}
-          className={classes.searchbar}
+          className="searchbar"
         />
         <button
           type="submit"
-          className={classes.searchButton}
+          className="searchButton"
         >
           <FontAwesomeIcon icon={faMagnifyingGlass} />
         </button>
